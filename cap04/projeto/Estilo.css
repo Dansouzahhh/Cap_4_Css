@@ -1,7 +1,7 @@
 /* Estrutura */
 
 body{
-    width: 100px;
+    width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -9,13 +9,56 @@ body{
 header h1 {
     width: 240px;
     float: left;
-    background-image: url(../m);
+    background-image: url(../projeto/multimidia/meu-amigo-cao-petshop-header.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 200px;
+    text-indent: -1000px;
+    margin-bottom: 0px;
+}
+
+header #anuncio {
+    width: 510px;
+    float: left;
+    margin: 80px auto auto;
+    padding-top: 0px;
+}
+
+header section {
+    padding-top: 70px;
+}
+header section a[href="boletim.html"] {
+    border: solid #C0262c thin;
+    padding: 15px;
+    border-radius: 15px;
+    color: #C0262c;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+header section p{
+    color: #999999;
+    margin: 33px auto 7px
+}
+header section figure{
+    width: 100%;
+    margin: 0px;
+}
+
+header section figure a {
+        padding: 25px 5px 0;
+        border: none;
+}
+header section figure a:first-child {
+    padding: 25px 5px 0 0;
+}
+header section figure a:last-child {
+    padding: 25px 0 0 5px;
 }
 
 main h2 {
     font-size: 1.75em;
     /* 28/16=1.75 */
-    background: #C0262c url(..multimidia/back-bolinha.gif) repeat top center;
+    background: #C0262c url(../projeto/multimidia/bolinha.JPG) repeat top center;
     color: #fff;
     letter-spacing: .1em;
     padding: 7px;
